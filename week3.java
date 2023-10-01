@@ -8,5 +8,12 @@ class HelloWorld {
         else{
             System.out.println(1);
         }
+        //using while loop for the first time
+        int n=4;
+        while(n>0){
+            n--;
+            System.out.println(n);
+        }
+        
     }
 }
