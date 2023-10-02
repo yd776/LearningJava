@@ -14,6 +14,35 @@ class HelloWorld {
             n--;
             System.out.println(n);
         }
+                int n=10;
+        int sum=0;
+        while(n>=0){
+            sum+=n;
+            n--;
+        }
+        System.out.println(sum);
+        sum=0;
+        int i=0;
+        int t=9;
+        do{
+            sum+=i;
+            i++;
+            
+        }
+        while(i<=t);
+        System.out.println(sum);
         
+        int sum=0;
+        int n=a.length;
+        int i;
+
+        // for loop in java
+        for(i=0;i<n;i++){
+            sum+=a[i];
+        }
+        return (sum);
+        
+    }
+    
     }
 }
