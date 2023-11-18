@@ -41,3 +41,15 @@
         System.out.println(result);
 
 
+        int x=10;
+if (x>=10)
+System.out.println("Hello");
+else
+System.out.println("Bye");
+if (true){
+    System.out.println("Hello");
+}
+if (x >9 && x<=20){
+    System.out.println("J");
+}
+
