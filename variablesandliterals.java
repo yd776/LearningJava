@@ -26,4 +26,10 @@
         int result =a1*b1;
         System.out.println(result);
         //here byte * byte gives us int 
-        
+            int num1=7;
+            int result=num1++;
+            int result1=++num1;
+            System.out.println(result);
+            System.out.println(result1);
+
+
