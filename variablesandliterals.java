@@ -52,4 +52,12 @@ if (true){
 if (x >9 && x<=20){
     System.out.println("J");
 }
-
+    int x=8;
+    int y=7;
+    int z=9;
+    if(x>y && x>z)
+        System.out.println("J");
+    else if(y>x && y>z)
+    System.out.println("d");
+    else
+        System.out.println("l");
