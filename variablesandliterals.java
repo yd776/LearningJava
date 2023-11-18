@@ -12,4 +12,18 @@
         c++;
         System.out.println(c);//should give b
         //casting conversion of one frmat to another
+
+                //casting 
+        int a=12;
+        System.out.println(a);
+        double b=13.3;
+        System.out.println(b);
+        a=(int)b;
+        System.out.println(a);
+        //type promotions
+        byte a1=30;
+        byte b1=10;
+        int result =a1*b1;
+        System.out.println(result);
+        //here byte * byte gives us int 
         
