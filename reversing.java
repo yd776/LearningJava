@@ -23,3 +23,18 @@ public class Main
 		}
 	}
 }
+
+// using arrayList instead of array 
+
+
+	public static void main(String[] args) {
+    ArrayList array = new ArrayList();
+    Scanner scan =new Scanner(System.in);
+    System.out.println("Please enter the total number of elemnts in the array");
+    int a=scan.nextInt();
+    for(int i=0;i<a;i++){
+        int b=scan.nextInt();
+        array.add(b);
+    }
+    Collections.reverse(array);
+    System.out.println(array);
